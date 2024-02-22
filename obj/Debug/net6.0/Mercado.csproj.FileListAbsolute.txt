@@ -1,0 +1,14 @@
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\bin\Debug\net6.0\Mercado.exe
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\bin\Debug\net6.0\Mercado.deps.json
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\bin\Debug\net6.0\Mercado.runtimeconfig.json
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\bin\Debug\net6.0\Mercado.dll
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\bin\Debug\net6.0\Mercado.pdb
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\obj\Debug\net6.0\Mercado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\obj\Debug\net6.0\Mercado.AssemblyInfoInputs.cache
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\obj\Debug\net6.0\Mercado.AssemblyInfo.cs
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\obj\Debug\net6.0\Mercado.csproj.CoreCompileInputs.cache
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\obj\Debug\net6.0\Mercado.dll
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\obj\Debug\net6.0\refint\Mercado.dll
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\obj\Debug\net6.0\Mercado.pdb
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\obj\Debug\net6.0\Mercado.genruntimeconfig.cache
+C:\Users\Brunao\Desktop\Aprendizagem\Mercado\Mercado\obj\Debug\net6.0\ref\Mercado.dll
