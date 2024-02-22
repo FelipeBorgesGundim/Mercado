@@ -3,8 +3,8 @@
 List<Produto> produtos = new();
 List<Estoque> estoques = new();
 
-Produto produto1 = new Produto("Manteiga Qualy", 100, 7.50);
-Produto produto2 = new Produto("Leite URA", 200, 4.90);
+Produto produto1 = new Produto("Manteiga Qualy", 100, 7.50, new DateTime (2024,04,01));
+Produto produto2 = new Produto("Leite URA", 200, 4.90, new DateTime(2024, 04, 01));
 
 produtos.Add(produto1);
 produtos.Add(produto2);
@@ -24,6 +24,7 @@ foreach (var estoque in estoques)
 {
     Console.WriteLine(estoque);
 }
+produto1.dataDeValidade();
 
 
 
