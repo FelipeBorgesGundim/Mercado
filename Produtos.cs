@@ -16,16 +16,13 @@
     
     override public string ToString()
     {
-        return $"Nome: {Nome}, Código de Barras: {CodBarras}";
+        return $"Nome: {Nome}, Código de Barras: {CodBarras}, Valor Unitario: {Preco}.";
     }
     public void dataDeValidade()
     {
         DateTime Validade = new DateTime(2024, 04, 01);
         TimeSpan diasRestantes = Validade - DateTime.Now;
 
-        Console.WriteLine(Validade);
-        Console.WriteLine(diasRestantes);
-        Console.WriteLine(DateTime.Now);
 
         if (diasRestantes.TotalDays < 30 && diasRestantes.TotalDays > 0)
         {
