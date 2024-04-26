@@ -1,18 +1,24 @@
 ﻿
+using System.Diagnostics.CodeAnalysis;
+
 namespace Mercado.Menus;
 
 internal class MenuExibirDetalhes : Menu
 {
-    public override void Executar(Dictionary<string, List<int>> produtosRegistrados)
+    public override void Executar(Dictionary<string, List<int>> produtosRegistrados, List<int> codProduto)
     {
-        base.Executar(produtosRegistrados);
+        base.Executar(produtosRegistrados, codProduto);
         ExibirTituloDaOpcao("Exibir detalhes do Produto");
         Console.Write("Digite o nome do produto que deseja ver detalhes: ");
         string nomeDoProduto = Console.ReadLine()!;
         if (produtosRegistrados.ContainsKey(nomeDoProduto))
         {
             List<int> qtdProdutos = produtosRegistrados[nomeDoProduto];
-            Console.WriteLine($"\nA quantidade do Produto {nomeDoProduto} é {qtdProdutos.Sum()}.");
+            Console.WriteLine($"\nA quantidade do Produto {nomeDoProduto} - {codProduto} é {qtdProdutos.Sum()}.");
+
+
+
+
             /**
             * ESPAÇO RESERVADO PARA COMPLETAR A FUNÇÃO
             */

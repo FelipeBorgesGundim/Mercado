@@ -1,11 +1,15 @@
 ﻿using Mercado.Menus;
 using Mercado.Modelos;
 
-Produto manteiga = new Produto("Cafe");
+Produto manteiga = new Produto("Cafe", 1234);
 
 Dictionary<string, List<int>> produtosRegistrados = new();
 produtosRegistrados.Add("Manteiga", new List<int> { 10, 10 });
 produtosRegistrados.Add("Leite", new List<int> { 15 });
+produtosRegistrados.Add("Suco Prats", new List<int> { 14 });
+
+List<int> codProduto = new List<int>();
+
 
 Dictionary<int, Menu> opcoes = new();
 opcoes.Add(1, new MenuRegistrarProduto());
@@ -40,7 +44,7 @@ void ExibirOpcoesDoMenu()
     if(opcoes.ContainsKey(opcaoEscolhidaNumerica))
     {
         Menu menu = opcoes[opcaoEscolhidaNumerica];
-        menu.Executar(produtosRegistrados);
+        menu.Executar(produtosRegistrados, codProduto);
         if(opcaoEscolhidaNumerica > 0) ExibirOpcoesDoMenu();  
     }
     else

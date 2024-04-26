@@ -4,9 +4,9 @@ namespace Mercado.Menus;
 internal class MenuAdiconarQuantidade : Menu
 {
 
-    public override void Executar(Dictionary<string, List<int>> produtosRegistrados)
+    public override void Executar(Dictionary<string, List<int>> produtosRegistrados, List<int> codProduto)
     {
-            base.Executar(produtosRegistrados);
+            base.Executar(produtosRegistrados, codProduto);
             ExibirTituloDaOpcao("Adicionar Quantidade de produto Cadastrado:");
             Console.Write("Digite o nome do produto que deseja adicionar no estoque: ");
             string nomeDoProduto = Console.ReadLine()!;

@@ -2,9 +2,9 @@
 {
     public class MenuMostrarProdutosRegistrados : Menu
     {
-        public virtual void Executar(Dictionary<string, List<int>> produtosRegistrados)
+        public override void Executar(Dictionary<string, List<int>> produtosRegistrados, List<int> codProduto)
         {
-            base.Executar(produtosRegistrados);
+            base.Executar(produtosRegistrados, codProduto);
             ExibirTituloDaOpcao("Exibindo todos os Produtos registrados na nossa aplicação");
 
             foreach (string banda in produtosRegistrados.Keys)

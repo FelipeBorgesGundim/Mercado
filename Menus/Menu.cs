@@ -1,4 +1,5 @@
-﻿namespace Mercado.Menus
+﻿
+namespace Mercado.Menus
 {
     public class Menu
     {
@@ -10,7 +11,7 @@
             Console.WriteLine(titulo);
             Console.WriteLine(asteriscos + "\n");
         }
-        public virtual void Executar(Dictionary<string, List<int>> produtosRegistrados)
+        public virtual void Executar(Dictionary<string, List<int>> produtosRegistrados, List<int> codProduto)
         {
             Console.Clear();
         }
